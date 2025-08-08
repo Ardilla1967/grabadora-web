@@ -34,7 +34,7 @@ for i in range(entries.Count):
         else:
             correo = getattr(entry, "Address", "")
 
-        if isinstance(correo, str) and "@chileatiende.cl" in correo.lower():
+        if isinstance(correo, str) and "@ips.gob.cl" in correo.lower():
             print(f"{nombre}: {correo}")
             datos.append({"Nombre": nombre, "Correo": correo})
 

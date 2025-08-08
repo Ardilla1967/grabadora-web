@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <title>Grabador y Transcriptor</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" />
+  <title>Grabadora iPhone-Compatible</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🗣 Grabador de Voz</h1>
-  <button id="startBtn">🎙 Empezar Grabación</button>
-  <button id="stopBtn" disabled>⏹ Detener</button>
+  <h1>🎙 Grabadora de Voz (iPhone OK)</h1>
+  <button id="startBtn">Comenzar Grabación</button>
+  <button id="stopBtn" disabled>Detener Grabación</button>
   <p id="status">Estado: Esperando...</p>
-  <h2>📄 Transcripción</h2>
-  <pre id="transcript">---</pre>
-  <h2>📝 Resumen</h2>
-  <pre id="summary">---</pre>
+  <div id="audioContainer"></div>
 
-  <!-- Aquí se enlaza el archivo script.js -->
+  <script src="recorder.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
+
 

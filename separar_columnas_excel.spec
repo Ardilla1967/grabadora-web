@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['VISTA_PREVIA_IMAGEN_PDF.py'],
+    ['separar_columnas_excel.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='VISTA_PREVIA_IMAGEN_PDF',
+    name='separar_columnas_excel',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['anadir-imagen.ico'],
+    icon=['mi_icono.ico'],
 )
